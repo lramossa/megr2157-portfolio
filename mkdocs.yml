@@ -4,7 +4,12 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 theme:
   name: material
   palette:
-    primary: yellow
+    primary: custom 
+    :root  > * {
+  --md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
   features:
     - navigation.instant
     - navigation.tracking
