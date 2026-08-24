@@ -5,6 +5,8 @@ theme:
   name: material
   palette:
     primary: custom 
+    extra_css:
+  - stylesheets/extra.css
     :root  > * {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
