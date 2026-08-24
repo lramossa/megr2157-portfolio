@@ -4,9 +4,7 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 theme:
   name: material
   palette:
-    primary: custom 
-  extra_css:
-  - stylesheets/extra.css
+    primary: green
   features:
     - navigation.instant
     - navigation.tracking
