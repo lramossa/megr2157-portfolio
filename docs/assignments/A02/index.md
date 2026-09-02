@@ -74,3 +74,13 @@ For this part, I was given the yield shear strength of 170 ksi and a density of 
 
 # Lessons learned
 
+During this design process I learned how to design a truss based on given points and forces. I was able to use equations used in statics to make my own design. Previously in statics, we had only used these equations such as 2j=3+M to verify in a truss is statically determined, but I had not expanded on that. 
+
+Another thing I learned in this design process is that it is important to keep track of everything and making sure you get measurements of everything even if you think you won't need it. My force calculations and dimensions were scattered across multiple pages and I would spent time looking back to find the answers I already had. For future assignments I will either highlight my answers or write them in a separate sheet of paper specifically set aside for answers. 
+
+# Failure in Truss members
+
+# Failure in Pin Connections
+### Sites used for research
+
+
