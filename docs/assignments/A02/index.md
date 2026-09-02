@@ -60,10 +60,12 @@ I now had all force member values
 # Calculate cross sectional area
 Using the equation for normal stress I was able to add a variable for area. Once I rearranged the equation for area, i plugged in the value for SF, Fmax and shear. The cross sectional area came out to 0.4919 mm^2.
 <img width="642" height="461" alt="Screenshot 2026-09-02 142107" src="https://github.com/user-attachments/assets/b947986f-5dbb-404a-a693-f368d03a6f55" />
-
+Once I had the cross sectional area, I needed to find the weight of the truss. To find out the total length of the truss I added the lengths of all 5 members up for a total of 3.454m.
+The equation for w=mg, but since I didn't have a value for mass I needed another equation. The equation for mass is density * v, once again I am missing the value for v. The equation for volume is A * L, since I had the value for both I was able to plug it in into this equation and work back up to find the W. 
 <img width="700" height="565" alt="image" src="https://github.com/user-attachments/assets/b5e7bd8a-2f2a-466d-b322-952f1e993c62" />
-
+Approximate combined weight of the pin- 130.836 N.
 # Calculating cross sectional area of the pins
+For this part, I was given the yield shear strength of 170 ksi and a density of 0.278 lb/in^3 with a safety factor of 4. I needed to figure out the area and weight of the pins. To do this I used the equation: shear stress=V/A. After some substitution and moving variables I was able to solve for A. 
 <img width="580" height="372" alt="Screenshot 2026-09-02 142121" src="https://github.com/user-attachments/assets/12c79fac-be53-4980-87bc-6efcef8abe6b" />
 
 <img width="495" height="480" alt="Screenshot 2026-09-02 142128" src="https://github.com/user-attachments/assets/b770cd67-d95a-436b-a937-1b898ee8ee3c" />
