@@ -79,8 +79,16 @@ During this design process I learned how to design a truss based on given points
 Another thing I learned in this design process is that it is important to keep track of everything and making sure you get measurements of everything even if you think you won't need it. My force calculations and dimensions were scattered across multiple pages and I would spent time looking back to find the answers I already had. For future assignments I will either highlight my answers or write them in a separate sheet of paper specifically set aside for answers. 
 
 # Failure in Truss members
+### For a member experiencing tension 
+Expected failure mode- yielding
+ Ductile or Brittle: Brittle
+ A member will undergo yield when the elasticity limit is surpassed. Surpassing the elasticity limit will cause the member to deform and will cause the member to permanently change shape.  
+### For a member experiencing compression
+Expected failure mode-
 
 # Failure in Pin Connections
 ### Sites used for research
 
+https://www.hawkins.biz/insight/steel-structure-failure-mechanisms/
+https://www.sculpteo.com/en/3d-learning-hub/design-guidelines/yield-strength-explained-a-practical-guide-for-engineers-designers/
 
