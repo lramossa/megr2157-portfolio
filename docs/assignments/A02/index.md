@@ -39,7 +39,7 @@ Before beginning the design of the truss, I first needed figure out how many mem
 Plugging in all the given values, my sketch was complete and now I just need to find the forces. 
 <img width="537" height="235" alt="Screenshot 2026-09-02 141913" src="https://github.com/user-attachments/assets/aaf38403-f11e-44b6-b542-8af3e2908569" />
 
-I began with a FBD for external forces to solve for Ay and By. 
+Before I could figure out the internal loads I needed to find the external forces. Since point B is a roller I only added a By. For Point A, I added Ax and Ay since it is a pin support.  I began with a FBD for external forces to solve for Ay and By. 
 <img width="537" height="307" alt="Screenshot 2026-09-02 141920" src="https://github.com/user-attachments/assets/ba9e1770-5213-4a2b-9e19-9bdd18248713" />
 
 Solving for Ay and By, I get 6.67 kN(c) and 6.67 kN(T).
@@ -58,11 +58,12 @@ I now had all force member values
 <img width="323" height="192" alt="Screenshot 2026-09-02 142051" src="https://github.com/user-attachments/assets/372cf5ad-a416-4292-b771-9abf253137ee" />
 
 # Calculate cross sectional area
+Using the equation for normal stress I was able to add a variable for area. Once I rearranged the equation for area, i plugged in the value for SF, Fmax and shear. The cross sectional area came out to 0.4919 mm^2.
 <img width="642" height="461" alt="Screenshot 2026-09-02 142107" src="https://github.com/user-attachments/assets/b947986f-5dbb-404a-a693-f368d03a6f55" />
 
 <img width="700" height="565" alt="image" src="https://github.com/user-attachments/assets/b5e7bd8a-2f2a-466d-b322-952f1e993c62" />
 
-# Calculating cross sectional are of the pins
+# Calculating cross sectional area of the pins
 <img width="580" height="372" alt="Screenshot 2026-09-02 142121" src="https://github.com/user-attachments/assets/12c79fac-be53-4980-87bc-6efcef8abe6b" />
 
 <img width="495" height="480" alt="Screenshot 2026-09-02 142128" src="https://github.com/user-attachments/assets/b770cd67-d95a-436b-a937-1b898ee8ee3c" />
